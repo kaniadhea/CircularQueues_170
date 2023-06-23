@@ -124,9 +124,14 @@ int main() {
 				q.remove();
 				}
 			case '3': {
-				q.
-
+				q.display();
+				break;
 			}
+			case '4': {
+				return 0;
+			}
+			default: {
+
 			}
 			}
 		}
