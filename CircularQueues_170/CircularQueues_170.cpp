@@ -131,9 +131,14 @@ int main() {
 				return 0;
 			}
 			default: {
-
+				cout << "Invalid option" << endl;
+				break;
 			}
 			}
 		}
+		catch (exeption& e) {
+			cout << "Chek for the values entered. " << endl;
+		}
 	}
+
 }
