@@ -122,6 +122,7 @@ int main() {
 			}
 			case '2': {
 				q.remove();
+				break;
 				}
 			case '3': {
 				q.display();
@@ -136,9 +137,10 @@ int main() {
 			}
 			}
 		}
-		catch (exeption& e) {
+		catch (exception& e) {
 			cout << "Chek for the values entered. " << endl;
 		}
 	}
 
+	return 0;
 }
