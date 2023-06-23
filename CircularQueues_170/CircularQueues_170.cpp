@@ -120,6 +120,14 @@ int main() {
 				q.insert();
 				break;
 			}
+			case '2': {
+				q.remove();
+				}
+			case '3': {
+				q.
+
+			}
+			}
 			}
 		}
 	}
